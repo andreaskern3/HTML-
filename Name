@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script language="JavaScript">
+            <!---->
+            function Name(str)  {
+                alert("Hallo. "+str + "!"); 
+            }
+            </script>
+            </head>
+            <body>
+                Bitte geben Sie Ihren Namen ein
+                <form>
+                    <input type="text name="name onblur="Name(this.Value)"
+                     value="">
+                </form>
+            </body>
+</html>
