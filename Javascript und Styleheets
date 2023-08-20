@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Wechseltext</title>
+</head>
+<body bgcolor="#ffffff"
+        <div id="text1">
+            Wenn Sie denken,das dieser Text schon alles ist,
+            dann warten sie doch drei Sekunden ...
+        </div>
+
+        <div id="text2">
+            ... und lesen dann hier,wie es weiter geht. Dieser
+            Effekt ist durch das Zusammenspiel von Javascript
+            uns Stylesheets möglich.
+        </div>
+    </body>
+</html>
+
+<style type="text/css">
+    <!-- -->
+    .nrl {
+        color: white;
+        font-style: normal;
+        font-size: 0;
+    }
+
+    .nr2 {
+        color: black;
+        font-style: bold;
+        font-size: 30;
+    }
+</style>
+    </head>
+
+<body bgcolor="#ffffff">
+    <div class="nr1" id="text1">
+        Wenn Sie denken,dass dieser Text schon alles ist,
+        dann warten Sie doch drei Sekunden ...
+    </div>
+
+    <div class="nr2" id="text2">
+        ... und lesen dann hier,wie es weiter geht. Dieser
+        Effekt ist durch das Zusammenspiel von Javascript
+        Stylesheets möglich.
+    </div>
+</body>
+
+<head
+    <script language="Javascript">
+        <!---->
+        function wechseln
+        {
+            if (text1.className=="nr1")
+            {
+                text1.className="nr2";
+                text2.className="nr1";
+        }
+        else
+        {
+            text1.className="nr1";
+            text2.className="nr2";
+            setTimeout("wechseln"()"3000");
+        }
+        /-->
+        </script>
+        </head>
+
+<html>
+<head>
+    <title>Wechseltext</title>
+    <styletype ="text/css">
+        <!---->
+        .nr1
+        {
+        color:white;
+        font-style:normal;
+        font-size:0;
+        }
+        .nr2
+        {
+        color:black;
+        font-style:bold;
+        font-size:30:
+        }
+        //-->
+        </style>
+        <script language="Javascript">
+                <!---->
+                function wechseln()
+                {
+                    if (text1.classname=="nr1")
+                    {
+                        text1.classname="nr2";
+                        text2.classname="nr1";
+                    }
+                else
+                {
+                    text1.classname="nr1";
+                    text2.classname="nr2";
+                }
+                setTimeout("wechseln()",3000);
+            }
+            //-->
+        </script>
+</head>
+<body onload="wechseln()" bgcolor="#ffffff"
+            <div class="nr1" id="text1">
+                Wenn Sie denken,daas dieser Text schon alles ist,
+                dann warten Sie doch drei Sekunden ...
+            </div>
+            <div class="nr2" id="text2">
+                ...und lesen dann weiter,wie es weiter geht.Dieser
+                Effekt ist durch das Zusammenspiel von Javascript
+                und Stylesheets möglich.
+            </div>
+            </body
+</html>
